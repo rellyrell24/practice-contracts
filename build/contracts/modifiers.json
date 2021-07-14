@@ -1,0 +1,215 @@
+{
+  "contractName": "modifiers",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/JG/.jg/stringContract/contracts/modifiers.sol\":\"modifiers\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/JG/.jg/stringContract/contracts/modifiers.sol\":{\"keccak256\":\"0xb130470bab2a9fc2a3ef29af2383b7e246b1898a5dadbc17099eec996915a87b\",\"urls\":[\"bzz-raw://a07c3f3367fbec01241b5e7f443320cdf85e80292a4727062b3fe68add916d6f\",\"dweb:/ipfs/QmYX5vvPwrxuFkQ6Bv3TrdeRsH3R8uWuHRLebCbMDEwSXY\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820bea6102c5a806f42437b0ffb495a8caf7d4fd563d473c143bfa0d9e04bb6dc4264736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820bea6102c5a806f42437b0ffb495a8caf7d4fd563d473c143bfa0d9e04bb6dc4264736f6c63430005100032",
+  "sourceMap": "66:51:1:-;;;89:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;89:26:1;66:51;;;;;;",
+  "deployedSourceMap": "66:51:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract modifiers {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:/Users/JG/.jg/stringContract/contracts/modifiers.sol",
+  "ast": {
+    "absolutePath": "/C/Users/JG/.jg/stringContract/contracts/modifiers.sol",
+    "exportedSymbols": {
+      "modifiers": [
+        51
+      ]
+    },
+    "id": 52,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "modifiers",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 49,
+              "nodeType": "Block",
+              "src": "110:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 50,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 47,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:1"
+            },
+            "returnParameters": {
+              "id": 48,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:1"
+            },
+            "scope": 51,
+            "src": "89:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 52,
+        "src": "66:51:1"
+      }
+    ],
+    "src": "32:86:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/JG/.jg/stringContract/contracts/modifiers.sol",
+      "exportedSymbols": {
+        "modifiers": [
+          51
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 46,
+        "name": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            51
+          ],
+          "name": "modifiers",
+          "scope": 52
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 51,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 47,
+                "name": "ParameterList",
+                "src": "100:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 48,
+                "name": "ParameterList",
+                "src": "110:0:1"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 49,
+                "name": "Block",
+                "src": "110:5:1"
+              }
+            ],
+            "id": 50,
+            "name": "FunctionDefinition",
+            "src": "89:26:1"
+          }
+        ],
+        "id": 51,
+        "name": "ContractDefinition",
+        "src": "66:51:1"
+      }
+    ],
+    "id": 52,
+    "name": "SourceUnit",
+    "src": "32:86:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-14T02:13:33.696Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
